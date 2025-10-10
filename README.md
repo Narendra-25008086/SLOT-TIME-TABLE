@@ -130,6 +130,7 @@ httpd.serve_forever()
 
 
 ## OUTPUT
+<img width="1920" height="1080" alt="Screenshot 2025-10-04 231816" src="https://github.com/user-attachments/assets/7176151a-5b03-40b3-98a8-f5e8a9929c94" />
 
 
 ## RESULT
