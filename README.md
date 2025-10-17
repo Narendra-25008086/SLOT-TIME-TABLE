@@ -115,6 +115,8 @@ SlotTimetable.html
 
 
 ## OUTPUT
+<img width="1920" height="1080" alt="Screenshot 2025-10-10 105909" src="https://github.com/user-attachments/assets/89febc68-82de-4670-ad45-345057c26484" />
+
 
 
 ## RESULT
