@@ -24,10 +24,8 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+SlotTimetable.html
 ```
-from http.server import HTTPServer, BaseHTTPRequestHandler
-
-content = """
 <!DOCTYPE html>
 <html>
     <body>
@@ -111,21 +109,8 @@ content = """
         </table>
     </body>
 </html>
-"""
-
-class MyHandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        print("Request received from:", self.client_address)
-        self.send_response(200)
-        self.send_header('Content-type', 'text/html; charset=utf-8')
-        self.end_headers()
-        self.wfile.write(content.encode('utf-8'))
-
-server_address = ('', 8000)
-httpd = HTTPServer(server_address, MyHandler)
-print("My webserver is running on http://localhost:8000 ...")
-httpd.serve_forever()
 ```
+
 
 
 
